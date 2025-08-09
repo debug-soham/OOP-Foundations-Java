@@ -8,7 +8,12 @@ A curated repository of solved practice problems showcasing fundamental Object-O
 > 
 > **[Solution](./src/q1_bankaccount/BankAccount.java)**
 
-### Q1: CompanyEmployee
+### Q2: CompanyEmployee
 > Develop a Java class to represent information about software company employees with information like salary code ,designation,salary,department. Implement method to display the employee details.
 > 
 > **[Solution](./src/q2_companyemployee/CompanyEmployee.java)**
+
+### Q3: Car (Encapsulation)
+> Q3. Write a Java class to represent a car with private fields for the make, model, and year. Implement getter and setter methods for these fields and demonstrate their usage in the main method.
+> 
+> **[Solution](./src/q3_car_encapsulation/Car.java)**
