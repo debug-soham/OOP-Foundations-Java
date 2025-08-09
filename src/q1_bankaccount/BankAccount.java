@@ -1,34 +1,47 @@
-// Source code is decompiled from a .class file using FernFlower decompiler.
-public class BankAccount {
-   double balance;
+/*
+Q1. Implement a Java class to represent a bank account with methods to deposit, withdraw and check the balance.
+*/
 
-   public BankAccount(double var1) {
-      this.balance = var1;
-   }
+public class BankAccount
+{
+    double balance;
 
-   public void deposit(double var1) {
-      this.balance += var1;
-      System.out.println("Deposited: " + var1);
-   }
+    public BankAccount(double initialBalance)
+    {
+        this.balance = initialBalance;
+    }
 
-   public void withdraw(double var1) {
-      if (var1 <= this.balance) {
-         this.balance -= var1;
-         System.out.println("Withdrawn: " + var1);
-      } else {
-         System.out.println("Insufficient balance.");
-      }
+    public void deposit(double amount)
+    {
+        balance += amount;
+        System.out.println("Deposited: " + amount);
+    }
 
-   }
+    public void withdraw(double amount)
+    {
+        if (amount <= balance)
+        {
+            balance -= amount;
+            System.out.println("Withdrawn: " + amount);
+        }
+        else
+        {
+            System.out.println("Insufficient balance.");
+        }
+    }
 
-   public double getBalance() {
-      return this.balance;
-   }
+    public double getBalance()
+    {
+        return balance;
+    }
 
-   public static void main(String[] var0) {
-      BankAccount var1 = new BankAccount(10000.0);
-      var1.deposit(2400.0);
-      var1.withdraw(4640.0);
-      System.out.println("Current Balance: " + var1.getBalance());
-   }
+    public static void main(String args[])
+    {
+        BankAccount account = new BankAccount(10000);
+
+        account.deposit(2400);
+        account.withdraw(4640);
+        System.out.println("Current Balance: " + account.getBalance());
+    }
+
 }
