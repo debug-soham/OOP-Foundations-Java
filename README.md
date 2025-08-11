@@ -32,3 +32,8 @@ A curated repository of solved practice problems showcasing fundamental Object-O
 > Java program to demonstrate the use of all types of Constructor
 > 
 > **[Solution](./src/q6_constructors/Student.java)**
+
+### Q7: Book
+> Develop a Java class to represent a book with properties like title author, and year of publication. Implement methods to display the book details and check if two books are the same (based on their properties).
+> 
+> **[Solution](./src/q7_book/Book.java)**
