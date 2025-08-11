@@ -17,3 +17,8 @@ A curated repository of solved practice problems showcasing fundamental Object-O
 > Write a Java class to represent a car with private fields for the make, model, and year. Implement getter and setter methods for these fields and demonstrate their usage in the main method.
 > 
 > **[Solution](./src/q3_car_encapsulation/Car.java)**
+
+### Q4: Factorial (Static Method)
+> Implement a Java code that contains a static method to calculate the factorial of a given number.
+> 
+> **[Solution](./src/q4_factorial_static_method/Factorial.java)**
