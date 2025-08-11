@@ -23,7 +23,12 @@ A curated repository of solved practice problems showcasing fundamental Object-O
 > 
 > **[Solution](./src/q4_factorial_static_method/Factorial.java)**
 
-### Q4: Circle (Non-Static & Static Method)
+### Q5: Circle (Non-Static & Static Method)
 > Write a Java class representing a Circle with a non-static method to calculate its area and a static method to calculate its circumference.
 > 
 > **[Solution](./src/q5_circle/Circle.java)**
+
+### Q6: Constructors
+> Java program to demonstrate the use of all types of Constructor
+> 
+> **[Solution](./src/q6_constructors/Student.java)**
